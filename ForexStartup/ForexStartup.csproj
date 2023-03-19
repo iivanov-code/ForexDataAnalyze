@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <StartupObject>ForexStartup.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ForexCommander\ForexCommander.csproj" />
+    <ProjectReference Include="..\ForexCommon\ForexCommon.csproj" />
+    <ProjectReference Include="..\ForexDataConsumer\ForexDataConsumer.csproj" />
+    <ProjectReference Include="..\ForexTools\ForexTools.csproj" />
+  </ItemGroup>
+
+</Project>
